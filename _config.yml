@@ -5,7 +5,7 @@
 
 # Site
 title: QiayuanLiao'Blog
-subtitle:
+subtitle: 廖洽源的Blog
 description: lalala
 author: Qiayuan Liao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -358,8 +358,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true 
-  per_page: true 
+  enable: true  
+  per_page: true  
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
