@@ -43,7 +43,8 @@ highlighter: rouge
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
-markdown: redcarpet
+markdown: kramdown
+ 
 kramdown:
     input: GFM
 
@@ -358,7 +359,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true    
+  enable: true  
   per_page: false  
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
