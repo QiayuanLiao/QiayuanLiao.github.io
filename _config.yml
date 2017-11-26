@@ -43,7 +43,7 @@ highlighter: rouge
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
-markdown: kramdown
+markdown: redcarpet
 kramdown:
     input: GFM
 
@@ -69,7 +69,7 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
-
+ - mathjax 
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -108,7 +108,7 @@ seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -150,9 +150,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -358,9 +358,9 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true  
-  per_page: true  
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  enable: true    
+  per_page: false  
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
