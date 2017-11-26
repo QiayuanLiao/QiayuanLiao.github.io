@@ -7,7 +7,7 @@ author:     廖洽源                   # 作者
 tags: [Robotics , Control , Coursera ]                              #标签
 ---
 
-# Robotics: Aerial Robotics公开课 编程作业笔记(一)  
+# Robotics: Aerial Robotics公开课 编程作业笔记(Week2)  
 ## 前言 
 ### 学完课程的感想    
 我已经在Coursera网站上完成了三门公开课程.最具挑战性的课程便是Robotics专项课中的Robotics: Aerial Robotics,普通的高中数学课堂没有教授线性代数(week4还有变分法等高等数学的内容),物理中没有提及角动量等知识,更别说控制理论.幸好之前有线性代数和编程Arduino作为控制器的知识储备,终于在2017.9.23拿到了荣誉证书.  
