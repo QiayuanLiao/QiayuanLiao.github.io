@@ -71,7 +71,7 @@ $$ u(t) = \ddot z^{des}(t) + K_p e(t) + K_v \dot e(t) $$
 在实时控制时 控制输入函数 $$u(t)$$ 等价于:  
 $$ u = m(\ddot z^{des} + K_p e + K_v \dot e + g) $$  
 
-我没有使用前馈项(因为我不太理解😬)  
+我没有使用前馈项  
 $$ u = m( K_p e + K_v \dot e + g) $$  
 
 如何得到 $$\ddot z^{des}$$ 和 $$e$$ 和 $$\dot e$$ 呢???  
